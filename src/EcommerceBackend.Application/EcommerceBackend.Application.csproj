@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Referencias a otros proyectos -->
+  <ItemGroup>
+    <ProjectReference Include="..\EcommerceBackend.Domain\EcommerceBackend.Domain.csproj" />
+    <ProjectReference Include="..\EcommerceBackend.Infrastructure\EcommerceBackend.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <!-- Dependencias externas si las necesitas -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>
