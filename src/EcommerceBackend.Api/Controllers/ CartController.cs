@@ -1,8 +1,8 @@
-using EcommerceBackend.Application.DTOs;
-using EcommerceBackend.Application.Interface;
-using Microsoft.AspNetCore.Mvc;
-
 namespace EcommerceBackend.Api.Controllers;
+
+using EcommerceBackend.Application.Interface;
+using EcommerceBackend.Application.DTOs;
+using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/[controller]")]

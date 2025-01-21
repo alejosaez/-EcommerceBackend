@@ -1,8 +1,8 @@
-using EcommerceBackend.Application.Services;
+namespace EcommerceBackend.Api.Controllers;
+
+using EcommerceBackend.Application.Interface;
 using EcommerceBackend.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
-
-namespace EcommerceBackend.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -52,4 +52,4 @@ public class ProductsController : ControllerBase
         if (!success) return NotFound();
         return NoContent();
     }
-} 
+}
