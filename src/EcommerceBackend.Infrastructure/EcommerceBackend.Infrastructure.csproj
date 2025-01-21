@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EcommerceBackend.Domain\EcommerceBackend.Domain.csproj" />
+      <PackageReference Include="Azure.Storage.Blobs" Version="12.23.0" />
   </ItemGroup>
 
 </Project>
